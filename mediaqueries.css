@@ -1,0 +1,14 @@
+/*when the screen size is lower then 1200 px the desktop nav disapear 
+and instead show hamburger */
+@media screen and (max-width: 1200px) {
+    #desktop-nav{
+        display: none;
+    }
+    #hamburger-nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 3rem;
+    }
+}
+
+/*sections*/ 
